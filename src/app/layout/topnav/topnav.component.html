@@ -1,11 +1,11 @@
 <nav class="navbar navbar-light">
     <div class="nav navbar-nav">
-        <div class="float-xs-right">
+        <div class="float-xs-right" [@visibilityChanged]="isVisibleLang">
             <button type="button" class="btn btn-secondary btn-sm" (click)="changeLang('it')">{{'BUTTON_LANG_IT' | translate}}</button>
             <button type="button" class="btn btn-secondary btn-sm" (click)="changeLang('en')">{{'BUTTON_LANG_EN' | translate}}</button>
         </div>
         <div class="navbar-brand">
-            <img class="brand" src="/assets/images/brand.png">
+            <img (click)="toggleVisibility()" class="brand" src="/assets/images/brand.png">
         </div>
         <a class="nav-item nav-link" [routerLink]="['users']" routerLinkActive="active">
             {{'USER_LIST' | translate}}
