@@ -1,0 +1,13 @@
+<div id="todos">
+    <button type="button" class="btn btn-success top-right" [routerLink]="['/user', userId]">{{ 'BACK_TO_USER' | translate }}</button>
+    <h4>TODO:
+    {{ todos | occInObject: "completed"}}
+    /
+    {{ todos.length }}</h4>
+    <div *ngFor="let todo of todos" class="form-check disabled">
+        <label class="form-check-label">
+            <input type="checkbox" class="form-check-input" [(ngModel)]="todo.completed" disabled>
+            {{todo.title}}
+        </label>
+    </div>
+</div>
