@@ -1,6 +1,8 @@
 import { Injectable } from '@angular/core';
 import { Http } from '@angular/http';
 import 'rxjs/Rx';
+// tslint:disable-next-line:no-unused-variable
+import { Observable } from 'rxjs/Observable';
 
 import { CoreService } from '../core/core.service';
 
