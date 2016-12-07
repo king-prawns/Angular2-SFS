@@ -13,7 +13,7 @@ import { AppRoutingModule, routedComponents } from './app.routing';
         BrowserModule,
         UsersModule,
         CoreModule,
-        AppRoutingModule,
+        AppRoutingModule
     ],
     declarations: [ // is used to declare components
         // Everything inside declarations knows each other
