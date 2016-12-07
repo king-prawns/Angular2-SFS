@@ -1,6 +1,8 @@
 import { Injectable } from '@angular/core';
 import { Response } from '@angular/http';
+// tslint:disable-next-line:no-unused-variable
 import { Observable } from 'rxjs/Observable';
+import { ErrorObservable } from 'rxjs/observable/ErrorObservable';
 
 @Injectable()
 export class CoreService {
@@ -23,6 +25,6 @@ export class CoreService {
             errMsg = error.toString();
         }
         console.error(errMsg);
-        return Observable.throw(errMsg);
+        return ErrorObservable.throw(errMsg);
     }
 }
