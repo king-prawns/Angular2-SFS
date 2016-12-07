@@ -9,12 +9,16 @@ import { HeaderComponent } from '../layout/header/header.component';
 import { TopnavComponent } from '../layout/topnav/topnav.component';
 import { CoreService } from './core.service';
 
+export function translateFactory(http: Http) {
+  return  new TranslateStaticLoader(http, '/assets/i18n', '.json');
+}
+
 @NgModule({
     imports: [
         RouterModule,
         TranslateModule.forRoot({
             provide: TranslateLoader,
-            useFactory: (http: Http) => new TranslateStaticLoader(http, '/assets/i18n', '.json'),
+            useFactory: translateFactory,
             deps: [Http]
         }),
         NgbModule.forRoot()
