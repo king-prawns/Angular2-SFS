@@ -79,6 +79,7 @@ b) for dist build: [localhost:8080](http://localhost:8080/)
 
 ## Features
 
+- made following [Angular 2 Style Guide](https://angular.io/docs/ts/latest/guide/style-guide.html)
 - component, service, directive, pipe
 - Shared and Core Modules
 - RxJS Observable
