@@ -18,7 +18,7 @@ export function translateFactory(http: Http) {
         RouterModule,
         TranslateModule.forRoot({
             provide: TranslateLoader,
-            useFactory: translateFactory,
+            useFactory: translateFactory, // (http: Http) => new TranslateStaticLoader(http, '/assets/i18n', '.json'),
             deps: [Http]
         }),
         NgbModule.forRoot()
