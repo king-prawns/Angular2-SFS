@@ -48,14 +48,9 @@ $ ng server
 b) for dist build
 ```
 $ cd my-project
-```
-
---JiT compilation:
-```
 $ ng build --prod
 ```
-
---AoT compilation:
+instead for AoT compilation:
 ```
 $ ng build --prod --aot
 ```
