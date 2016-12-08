@@ -45,7 +45,7 @@ $ cd my-project
 $ ng server
 ```
 
-b) for dist build
+b) for prod build
 ```
 $ cd my-project
 $ ng build --prod
@@ -78,7 +78,7 @@ $ json-server --watch db.json
 
 a) for dev build: [localhost:4200](http://localhost:4200/)
 
-b) for dist build: [localhost:8080](http://localhost:8080/)
+b) for prod build: [localhost:8080](http://localhost:8080/)
 
 ## Features
 
