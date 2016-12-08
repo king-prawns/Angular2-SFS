@@ -50,12 +50,12 @@ b) for dist build
 $ cd my-project
 ```
 
-JiT compilation:
+--JiT compilation:
 ```
 $ ng build --prod
 ```
 
-AoT compilation:
+--AoT compilation:
 ```
 $ ng build --prod --aot
 ```
