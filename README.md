@@ -85,6 +85,7 @@ b) for dist build: [localhost:8080](http://localhost:8080/)
 - RxJS Observable
 - include 3rd-party JS library
 - Lazy Loading
+- JiT and AoT Compilation
 - Animations
 - [Webpack](https://webpack.github.io/)
 - [Normalize](https://necolas.github.io/normalize.css/)
