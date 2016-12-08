@@ -46,10 +46,18 @@ $ ng server
 ```
 
 b) for dist build
-
 ```
 $ cd my-project
+```
+
+JiT compilation:
+```
 $ ng build --prod
+```
+
+AoT compilation:
+```
+$ ng build --prod --aot
 ```
 
 Install http-server ([source](https://github.com/indexzero/http-server))
