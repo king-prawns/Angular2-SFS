@@ -6,14 +6,6 @@ Angular 2 project - Start from scratch
 
 Go to [Node website](https://nodejs.org/en/)
 
-- Install npm
-
-Open command prompt
-
-```
-$ npm install npm -g
-```
-
 - Install angular-cli
 
 A simple CLI for scaffolding Angular 2 projects
