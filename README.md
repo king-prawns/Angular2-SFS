@@ -1,7 +1,7 @@
 # Angular2-SFS
 Angular 2 project - Start from scratch
 
-## Installation Step by Step
+## Installation
 - Install Node.js
 
 Go to [Node website](https://nodejs.org/en/)
