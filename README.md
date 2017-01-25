@@ -6,14 +6,14 @@ Angular 2 project - Start from scratch
 
 Go to [Node website](https://nodejs.org/en/)
 
-- Install angular-cli
+- Install [angular-cli](https://github.com/angular/angular-cli)
 
 A simple CLI for scaffolding Angular 2 projects
 ```
 $ npm install -g angular-cli
 ```
 
-- Install json-server ([source](https://github.com/typicode/json-server))
+- Install [json-server](https://github.com/typicode/json-server)
 
 Full fake REST API
 ```
@@ -47,7 +47,7 @@ instead for AoT compilation:
 $ ng build --prod --aot
 ```
 
-Install http-server ([source](https://github.com/indexzero/http-server))
+Install [http-server](https://github.com/indexzero/http-server)
 
 A command-line http server
 ```
@@ -87,7 +87,7 @@ b) for prod build: [localhost:8080](http://localhost:8080/)
 - [Angular 2 Bootstrap](https://github.com/ng-bootstrap/ng-bootstrap)
 - [Angular 2 i18n](https://github.com/ocombe/ng2-translate)
 - [Angular 2 Codelyzer](https://github.com/mgechev/codelyzer)
-- NO unit/integration test has been developed.
+- NO unit/integration test has been developed
 
 ## Conclusion
 
